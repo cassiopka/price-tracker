@@ -8,6 +8,6 @@ type Product struct {
 	Name                 string  `json:"name"`                   // Название товара
 	ImageURLSmall        string  `json:"image_url_small"`        // Ссылка на маленькое изображение товара
 	ImageURLLarge        string  `json:"image_url_large"`        // Ссылка на большое изображение товара
-	Price                float64 `json:"price"`                  // Цена товара
+	Price                string  `json:"price"`                  // Цена товара
 	PriceWithoutDiscount float64 `json:"price_without_discount"` // Цена товара без скидки
 }
